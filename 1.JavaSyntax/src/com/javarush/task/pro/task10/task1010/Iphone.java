@@ -17,6 +17,20 @@ public class Iphone {
 
     }
 
+
+
+    public Iphone(String color){
+        model = "неизвестная модель";
+        this.color = color;
+        price = 0;
+    }
+
+    public Iphone(int price) {
+        model = "неизвестная модель";
+        this.color = "color";
+        this.price = price;
+    }
+
     @Override
     public boolean equals(Object model) {
         if (this == model) return true;
